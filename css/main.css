@@ -1,0 +1,343 @@
+.title h1{
+	font-family: 'Gmarket Sans TTF';
+	font-size: 36px;
+	font-weight: 500;
+}
+.title h1 span{
+	font-family:Noto Sans KR;
+}
+#header{
+	width: 100%;
+    background: #000;
+	border-bottom: 1px solid #262626;
+    position: fixed;
+    z-index: 10;
+}
+#header .logo{
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+	height: 100px;
+	border-bottom: 1px solid #262626;
+    cursor: pointer;
+}
+#header .logo a{
+	display: inline-block;
+}
+#header .logo img{
+	width: 100px;
+}
+#header .menu{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 63px;
+	overflow: hidden;
+}
+#header .menu li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	line-height: 60px;
+}
+
+#header .menu li a{
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 20px;
+    transition: all 0.3s;
+}
+#header .menu li a:hover{
+    color: #cb6006;
+}
+#section{
+    padding-top: 10px;
+	width: 100%;
+}
+#section .main_section img{
+	width: 100%;
+}
+#story{
+	width: 100%;
+	background: #f8f8f8;
+	text-align: left;
+}
+#story .story_bg{
+	width: 100%;
+	margin: 0 auto;
+	padding: 185px 0 260px 0;
+	max-width: 1200px;
+	background: url(../img/story_bg.png) no-repeat center;
+	overflow: hidden;
+}
+#story .story_bg .story_title{
+	margin-bottom: 30px;
+}
+#story .story_bg .story_text{
+	width: 50%;
+	padding:0 30px;
+	float: left;
+}
+#story .story_bg .s_text2{
+	margin-top: 10px;
+}
+#story .story_bg .story_text p{
+	display: inline-block;
+	font-family:Noto Sans KR;
+	font-size: 17px;
+	line-height: 30px;
+	letter-spacing: -0.25px;
+	color: #333;
+	margin-bottom: 30px;
+    font-weight: 300;
+    word-break: keep-all;
+}
+#story .story_bg .story_text p>span{
+	font-weight: 700;
+}
+#program{
+    padding-top: 100px;
+	overflow: hidden;
+}
+#program .pro{
+	width: 100%; max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.view a{
+	display: inline-block;
+}
+.view{
+	margin-top: 30px;
+	font-family: 'Montserrat';
+    font-style: italic;
+	font-size: 16px;
+	line-height: 14px;
+	position: relative;
+	z-index: 5;
+	font-weight: 500;
+}
+.view .bar{
+	width: 50px;
+	height: 2px;
+	background: #000;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	transition: all 0.5s;
+}
+#program .pro .inner_info{
+	margin-top: 45px;
+    line-height: 30px;
+}
+#program .pro .view .bar{
+	transition: all 0.5s;
+}
+.image{
+	float: left;
+}
+.image img{width: 100%;}
+.text{
+	font-family:Noto Sans KR; 
+	display: block;
+	height: 100%;
+	float: left;
+}
+.text h3{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.text h1{
+	font-family:'Gmarket Sans TTF'; 
+	font-size: 40px;
+	font-weight: bold;
+}
+.text p{
+	font-size: 16px;
+	color: #8d8d8d;
+	font-weight: 300;
+}
+#program{
+	width: 100%;
+}
+#program .pro1{
+	width: 100%;
+}
+#program .pro1 .text{
+	width: 520px;
+	text-align: right;
+	padding-right: 100px;
+	
+}
+#program .pro1 .image{
+	width: 680px;
+	margin-top: 128px;
+	position: relative;
+}
+#program .pro2{
+	width: 100%;
+	margin-bottom: 178px;
+}
+#program .pro2 .image{
+	width:420px; 
+	margin-top: -100px;
+}
+#program .pro2 .pro2_text{
+	width: 780px;
+	margin-top: 130px;
+	padding-left: 100px;
+}
+#program .pro2:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#program .pro3 .pro3_text{
+	width: 520px;
+	text-align: right;
+	padding-right: 100px;
+}
+#program .pro3 .pro3_img{
+	width: 680px;
+}
+#program .pro4 .pro4_img{
+	width: 420px;
+	margin-top: -50px;
+}
+#program .pro4 .pro4_text{
+	width: 680px;
+	padding-left: 100px;
+	margin-top: 183px;
+}
+#recipe{
+	width: 100%;
+	margin-top: 150px;
+	text-align: center;
+}
+#recipe .recipe_section{
+	width: 100%;
+	height: 447px;
+	background: url(../img/recipe.png) no-repeat center center;
+	background-attachment: fixed;
+	margin-bottom: 50px;
+}
+#recipe .recipe_title{
+	width: 100%;max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding-left: 1%;
+	text-align: left;
+}
+#recipe .content_all{
+	width: 100%;max-width: 1200px;
+	margin: 0 auto;
+	display: inline-block;
+}
+#recipe .content_all li{
+	width: 373px;height: 550px;
+	display: block;
+	float: left;margin: 1%;
+	text-align: left;
+    position: relative;
+}
+#recipe .content_all li a{
+	display: inline-block;
+}
+#recipe .content_all li a img:hover{
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+#recipe .content_all li p{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	margin:10px 0;
+	color: #8d8d8d;
+}
+#recipe .content_all li h1{
+	font-family: "Montserrat";
+	font-size: 16px;
+    font-weight: 500;
+	font-size: 24px;
+	vertical-align: middle;
+    position: absolute;
+    top:440px;
+}
+#recipe .content_all li .content_img{
+	overflow: hidden;
+}
+#recipe .content_all li .view{
+	text-align: right;
+    position: absolute;
+    bottom: 0;right: 0;
+}
+#recipe .content_all li .view .bar{
+	width: 20px;
+}
+#frenchise{
+	width: 100%;
+	height:100vh;
+	background: url(../img/frenchise_bg.png) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 1000px;
+	margin-top: 80px;
+	position: relative;
+}
+#frenchise .frenchise_box{
+	width: 100%;max-width: 871px;
+	margin: 0 auto;
+}
+#frenchise .frenchise_box .frenchise_img{
+	width: 100%;max-width: 871px;
+	margin: 0 auto;
+}
+#frenchise .frenchise_box .frenchise_img li{
+	width: 100%;max-width: 871px;
+	display: none;
+	position: absolute;
+}
+#frenchise .frenchise_box .frenchise_img li.on{
+	display: block;
+}
+#frenchise .frenchise_box .frenchise_img li img{
+	position: absolute;
+	top:70px;left: 0;
+}
+#frenchise .frenchise_box .frenchise_img li h1{
+	position: absolute;
+	top:460px;left: 0;
+	color: #cb6006;
+}
+#frenchise .frenchise_box .frenchise_img li p{
+	position: absolute;
+	top:522px; left: 0;
+	color: #fff;
+}
+#frenchise .frenchise_box .frenchise_logo{
+	width: 100%; max-width: 871px;
+	position: absolute;
+	bottom: 50px;
+	background: rgba(0,0,0,0.4);
+}
+#frenchise .frenchise_box .frenchise_logo li{
+	width: 25%;height: 147px;
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+}
+#frenchise .frenchise_box .frenchise_logo li a{
+	width: 216px;height: 147px;
+	display: block;
+}
+#frenchise .frenchise_box .frenchise_logo li:hover{
+	background:rgba(232,232,232,0.2);
+	transition: all 0.5s;
+}
+#frenchise .frenchise_box .frenchise_logo li img{
+	width: 180px;
+	margin-top: 25%;
+}
+#frenchise .frenchise_box .frenchise_logo li:last-child img{
+	margin-top: 16%;
+}
